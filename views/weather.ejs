@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Information</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Weather Information</h2>
+  <div>Temperature: <%= temp %>°C</div>
+  <div>Weather: <%= weatherDescription %></div>
+  <div>Humidity: <%= humidity %></div>
+  <div>Wind Speed: <%= windSpeed %></div>
+  <div><img src="http://openweathermap.org/img/w/<%= iconCode %>.png" alt="Weather Icon"></div>
+
+  <div>
+  <form action="" method="get">
+    <button class="btn btn-secondary">Go back</button>
+  </form>
+</div>
+  
+</body>
+</html>
